@@ -1,5 +1,5 @@
 {
-    "name": "lafourchette/switch-user-stateless-bundle",
+    "name": "bcvsocial/switch-user-stateless-bundle",
     "type": "symfony-bundle",
     "description": "Bundle to use impersonating on Symfony API",
     "keywords": [
@@ -40,7 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaFourchette\\SwitchUserStatelessBundle\\": ""
+            "BCVSocial\\SwitchUserStatelessBundle\\": ""
         },
         "exclude-from-classmap": [
             "/Tests/"
@@ -48,7 +48,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "LaFourchette\\SwitchUserStatelessBundle\\Tests\\": "features/app"
+            "BCVSocial\\SwitchUserStatelessBundle\\Tests\\": "features/app"
         }
     },
     "extra": {
